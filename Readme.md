@@ -6,4 +6,4 @@ License: [Apache 2.0](LICENSE.txt)
 
 # Example
 
-See [MaulingMonkey.WatchTest](MaulingMonkey.WatchTest\Program.cs)
+See [MaulingMonkey.WatchTest](MaulingMonkey.WatchTest/Program.cs)
