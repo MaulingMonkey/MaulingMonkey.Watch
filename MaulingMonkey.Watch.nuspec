@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>MaulingMonkey.Watch</id>
+		<version>0.0.0</version>
+		<authors>MaulingMonkey</authors>
+		<owners>MaulingMonkey</owners>
+		<licenseUrl>https://github.com/MaulingMonkey/MaulingMonkey.Watch/blob/master/LICENSE.txt</licenseUrl>
+		<projectUrl>https://github.com/MaulingMonkey/MaulingMonkey.Watch/</projectUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>Simple API for watching files.</description>
+		<releaseNotes>Initial release.</releaseNotes>
+		<copyright>Copyright © MaulingMonkey 2017</copyright>
+		<tags>file watcher</tags>
+	</metadata>
+	<files>
+		<file src="MaulingMonkey.Watch\bin\Release\**\*.*" target="lib\net45" />
+		<file src="MaulingMonkey.Watch\**\*.cs"             target="src"   />
+	</files>
+</package>

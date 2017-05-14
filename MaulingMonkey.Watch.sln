@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaulingMonkey.Watch", "MaulingMonkey.Watch\MaulingMonkey.Watch.csproj", "{06A22262-0DB7-4659-8434-E30B76DE690A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configruation", "Configruation", "{33136FB7-B822-4D30-88EA-8E1019471AA5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		MaulingMonkey.Watch.nuspec = MaulingMonkey.Watch.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{169B779D-B2E0-47BB-9A8F-AFF39F0AD4EB}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaulingMonkey.WatchTest", "MaulingMonkey.WatchTest\MaulingMonkey.WatchTest.csproj", "{8DE6B4DD-E399-45B1-8062-FA238FE8B0AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A22262-0DB7-4659-8434-E30B76DE690A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A22262-0DB7-4659-8434-E30B76DE690A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A22262-0DB7-4659-8434-E30B76DE690A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A22262-0DB7-4659-8434-E30B76DE690A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE6B4DD-E399-45B1-8062-FA238FE8B0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE6B4DD-E399-45B1-8062-FA238FE8B0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE6B4DD-E399-45B1-8062-FA238FE8B0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE6B4DD-E399-45B1-8062-FA238FE8B0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
